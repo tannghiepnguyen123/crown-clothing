@@ -5,6 +5,7 @@
     height: 350px;
     align-items: center;
     position: relative;
+    transition: all 0.3s;
 
     img {
         width: 100%;
@@ -19,6 +20,8 @@
         position: absolute;
         top: 255px;
         display: none;
+        transition: all 0.3s;
+        transform: translateY(50%);
     }
 
     &:hover {
@@ -29,6 +32,7 @@
         button {
             opacity: 0.85;
             display: flex;
+            transform: translateY(0);
         }
     }
 
